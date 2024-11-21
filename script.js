@@ -4,7 +4,7 @@ document.getElementById('generateBtn').addEventListener('click', function() {
     const qr = new QRious({
         element: canvas,
         value: url,
-        size: 200
+        size: 150
     });
 
     if (url) {
