@@ -4,7 +4,8 @@ document.getElementById('generateBtn').addEventListener('click', function() {
     const qr = new QRious({
         element: canvas,
         value: url,
-        size: 150
+        size: 150, // Fixed size for the QR code
+        level: 'H' // Error correction level (L, M, Q, H)
     });
 
     if (url) {
