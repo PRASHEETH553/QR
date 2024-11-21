@@ -33,7 +33,11 @@ button {
 }
 
 button:hover {
+    
+    background-color: #218838;
+    transform: translateY(-2px);
     background-color: #33c008;
+    
 }
 
 .qrcode {
